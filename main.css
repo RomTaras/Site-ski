@@ -1,0 +1,143 @@
+body {
+	backgroung:rgb(240, 240 240);
+	color:rgb(20, 20, 20);
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	color: #D84727;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	color: #0EAD69;
+}
+a:hover {
+	text-decoration: none;
+	color: #44BBA4;
+}
+/* div design */
+#banner {
+	background-image: url(images/sec.jpg);
+	padding: 150px;
+
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+#banner p{
+	font-size: 25px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+.card {
+	padding: 50px;
+	text-align: center;
+}
+#footer {
+	background: #1F271B;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+#footer a {
+	font-size: 20px;
+	color: grey;
+}
+#footer a:hover {
+	color: white;
+}
+#p1 {
+	background-image: url(images/ski.jpg);
+	background-size: cover;
+	background-repeat: repeat-x;
+	/*position: absolute;
+	top: 5px;
+	left: 5px;*/
+}
+#p2 {
+	background-image: url(images/bord.jpg);
+	background-size: cover;
+	/*position: absolute;
+	right: 5px;
+	top: 5px;*/
+}
+#p3 {
+	background-image: url(images/kyr.jpg);
+	background-repeat: repeat-x;
+	background-size: cover;
+	/*position: absolute;
+	bottom: 5px;
+	left: 5px;
+	background-attachment: fixed;*/
+}
+#p4 {
+	background-image: url(images/clos.jpg);
+	background-size: cover;
+	/*position: absolute;
+	bottom: 5px;
+	right: 5px;*/
+}
+.pct {
+	height: 366px;
+	width: 49.1%;
+	text-align: center;
+	padding: 70px;
+	display: inline-block;
+	margin: 5px;
+	
+}
+.pct h3 {
+	font-size: 30px;
+}
+.pct a:link, a:visited {
+	
+	background-color: #06D6A0;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	padding: 8px 14px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #4A6D7C;
+	border-radius: 4px;
+}
+.pct a:hover {
+	background-color: #4DA1A9;
+}
+.pct a:active {
+	background-color: #4DA1A9;
+	
+}
+
+#msc:hover {
+	background-color: #F2F8EE;
+}
+.mn {
+	background-color: #5F7778;
+	
+}
+.mn ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.mn li{
+	float: left;
+}
+.mn li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+.mn li a:hover {
+	background-color: #36454C;
+}
